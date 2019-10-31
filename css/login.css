@@ -22,14 +22,16 @@ main{
 }
 
 .box{
-    background-color: rgba(105,105,105, 0.3);
+    background-color: rgba(0,0,0, 0.30);
     border-radius: 6% 6% 6% 6%;
     margin: 10% 37% 10% 37%;
     padding: 3%;
 }
-
+.login__h3{
+    color: #fff;
+}
 .login{
-    background-color: #C0C0C0;
+    background-color:  rgba(0,0,0, 0.70);
     border-radius: 5px 5px 5px 5px;
     box-shadow: 5px 5px 5px 5px #000000;
     font-family: sans-serif;
@@ -56,6 +58,11 @@ main{
 
 
 .login__input{
+    border: none;
+    background: none;
+    border-bottom: 1px solid #fff;
+    outline: none;
+    color: #fff;
     border-radius: 3px 3px 3px 3px;
     font-size: 16px;
     height: 30px;
